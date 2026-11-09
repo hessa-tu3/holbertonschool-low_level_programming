@@ -3,6 +3,9 @@
 int main(void)
 {
     int choice;
+do 
+{
+    /* */
 
     printf("Simple Calculator\n");
     printf("1) Add\n");
@@ -17,5 +20,12 @@ int main(void)
     printf("Bye!\n");
 
 }
+else if (choice <  1|| choice > 4)
+{
+  printf("Invalid choice\n");
+}
+
+}while (choice != 0);
+ 
     return (0);
 }
