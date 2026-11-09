@@ -3,6 +3,9 @@
 int main(void)
 {
     int choice;
+ int a;
+int b;
+int result;
 do 
 {
     /* */
@@ -18,6 +21,18 @@ do
     if (choice == 0)
 {
     printf("Bye!\n");
+
+}
+else if (choice == 1)
+
+{
+ 
+printf("A: ");
+scanf("%d" ,&a);
+printf("B: ");
+scanf("%d" ,&b);
+result = a + b;
+printf("Result: %d\n", result);
 
 }
 else if (choice <  1|| choice > 4)
